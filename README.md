@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Calendar app
+
+Project for Microsoft Reactor course
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
