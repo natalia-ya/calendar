@@ -4,9 +4,18 @@ import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
 import "./App.css";
+import { distinctStringValues } from "@syncfusion/ej2-react-grids";
 
 const App = () => {
-  return <h1>App</h1>;
+  return (
+    <div>
+      <BrowserRouter>
+        <div className="flex relative dark:bg-main-dark-bg">
+          
+        </div>
+      </BrowserRouter>
+    </div>>
+  );
 };
 
 export default App;
