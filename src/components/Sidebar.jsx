@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { SiShopware } from "react-icons/si";
+import { BsCalendar2HeartFill } from "react-icons/bs";
 import { MdOutlineCancel } from "react-icons/md";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
@@ -23,7 +23,8 @@ const Sidebar = () => {
               onClick={() => {}}
               className="items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900"
             >
-              <SiShopware /> <span>Lovely Plan</span>
+              {/* Logo */}
+              <BsCalendar2HeartFill /> <span>Lovely Plan</span>
             </Link>
             <TooltipComponent content="Menu" position="BottomCenter">
               <button
@@ -50,7 +51,7 @@ const Sidebar = () => {
                     }
                   >
                     {link.icon}
-                    <span classNmae="capitalize">{link.name}</span>
+                    <span className="capitalize">{link.name}</span>
                   </NavLink>
                 ))}
               </div>
