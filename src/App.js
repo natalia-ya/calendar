@@ -29,7 +29,7 @@ import "./App.css";
 //import { distinctStringValues } from "@syncfusion/ej2-react-grids";
 
 const App = () => {
-  const activeMenu = true;
+  const { activeMenu } = useStateContext();
   return (
     <div>
       <BrowserRouter>
