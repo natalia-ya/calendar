@@ -23,7 +23,7 @@ import {
   Line,
 } from "./pages";
 
-import {useStateContext} from './contexts/ContextProvider',
+import { useStateContext } from "./contexts/ContextProvider";
 
 import "./App.css";
 //import { distinctStringValues } from "@syncfusion/ej2-react-grids";
